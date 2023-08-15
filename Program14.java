@@ -17,15 +17,12 @@ class Program14 {
                 c[k++] = arr2[j++];
             }
         }
-
         while (i < len1) {
             c[k++] = arr1[i++];
         }
-
         while (j < len2) {
             c[k++] = arr2[j++];
         }
-        
         for (int num : c) {
             System.out.print(num + " ");
         }
